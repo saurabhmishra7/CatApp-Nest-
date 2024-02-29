@@ -27,6 +27,6 @@ export class CatsController {
     @Param('id', new ParseIntPipe())
     id: number,
   ) {
-    // get by ID logic
+   
   }
 }
